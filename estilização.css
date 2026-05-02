@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body{
+    background: #f2f7fb;
+}
+
+
+nav{
+    background: #222;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    margin: 15px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    color: goldenrod;
+}
+
+
+header{
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1{
+    font-size: 40px;
+}
+
+
+#home{
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+
+#home h1{
+    font-size: 40px;
+}
+
+#home p{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+section{
+    padding: 80px 20px;
+    text-align: center;
+}
+
+
+.curso{
+    background: white;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: blue
+}
+
+.curso p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form label{
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input,
+form textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button{
+    background: #222;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+}
+
+form button:hover{
+    background: goldenrod;
+}
+
+.botao{
+    display: inline-block;
+    background: #222;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.botao:hover{
+    background: goldenrod;
+}
+
+footer{
+    text-align: center;
+    background: #222;
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+body{
+    background: #f2f7fb;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1{
+    font-size: 40px;
+}
+
+.curso{
+    background: white;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+.curso p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.botao{
+    display: inline-block;
+    background: #222;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.botao:hover{
+    background: goldenrod;
+}
+
+footer{
+    text-align: center;
+    background: #222;
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th , td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+body {
+     margin: 0;
+     min-height: 100vh;
+     background-size: contain;
+     background-position: center;
+     background-repeat: no-repeat;
+     flex-direction: column;
+     display: flex;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+.carousel-item img {
+    height: 600px;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+    background-color: #51AFF7;
+}
+
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+    background-color: black;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.carousel-indicators button {
+    background-color: gray;
+    width: 12px;
+    height: 12px;
+     border-radius:50% ;
+}
+
+.carousel-indicators .active {
+    background-color: red;
+}
+
+#carouselExampleIndicators {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px #51AFF7;
+}
+
+@media (max-width: 600px) {
+    .carousel-item img {
+        height: 220px;
+    }
+}
+
